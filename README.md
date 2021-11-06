@@ -8,3 +8,9 @@ Node bootstrapping:
 
 knife bootstrap FQDN/IP -U USERNAME -i /PATH/TO/IDENTITY_FILE --sudo -N web1 -r "recipe[apache]"
 
+kitchen list
+kitchen create
+kitchen converge
+kitchen verify
+kitchen destroy
+

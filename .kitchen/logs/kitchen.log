@@ -1,0 +1,60 @@
+E, [2021-11-06T18:00:15.555353 #15128] ERROR -- Kitchen: ------Exception-------
+E, [2021-11-06T18:00:15.555413 #15128] ERROR -- Kitchen: Class: Kitchen::ClientError
+E, [2021-11-06T18:00:15.555424 #15128] ERROR -- Kitchen: Message: Could not load the 'dokken' provisioner. Error: uninitialized constant Dokken::Helpers::Excon
+E, [2021-11-06T18:00:15.555436 #15128] ERROR -- Kitchen: ----------------------
+E, [2021-11-06T18:00:15.555442 #15128] ERROR -- Kitchen: ------Backtrace-------
+E, [2021-11-06T18:00:15.555448 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/plugin.rb:45:in `rescue in load'
+E, [2021-11-06T18:00:15.555453 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/plugin.rb:33:in `load'
+E, [2021-11-06T18:00:15.555459 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/provisioner.rb:37:in `for_plugin'
+E, [2021-11-06T18:00:15.555464 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:303:in `new_provisioner'
+E, [2021-11-06T18:00:15.555470 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:253:in `new_instance'
+E, [2021-11-06T18:00:15.555475 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:143:in `block in build_instances'
+E, [2021-11-06T18:00:15.555480 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `map'
+E, [2021-11-06T18:00:15.555486 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `with_index'
+E, [2021-11-06T18:00:15.555491 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `build_instances'
+E, [2021-11-06T18:00:15.555496 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:116:in `instances'
+E, [2021-11-06T18:00:15.555502 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2021-11-06T18:00:15.555507 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2021-11-06T18:00:15.555512 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command/list.rb:29:in `call'
+E, [2021-11-06T18:00:15.555518 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2021-11-06T18:00:15.555523 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/cli.rb:120:in `list'
+E, [2021-11-06T18:00:15.555528 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2021-11-06T18:00:15.555533 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2021-11-06T18:00:15.555539 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2021-11-06T18:00:15.555544 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2021-11-06T18:00:15.555549 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/bin/kitchen:11:in `block in <top (required)>'
+E, [2021-11-06T18:00:15.555554 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/errors.rb:170:in `with_friendly_errors'
+E, [2021-11-06T18:00:15.555559 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/bin/kitchen:11:in `<top (required)>'
+E, [2021-11-06T18:00:15.555566 #15128] ERROR -- Kitchen: /usr/bin/kitchen:342:in `load'
+E, [2021-11-06T18:00:15.555575 #15128] ERROR -- Kitchen: /usr/bin/kitchen:342:in `<main>'
+E, [2021-11-06T18:00:15.555580 #15128] ERROR -- Kitchen: ----End Backtrace-----
+E, [2021-11-06T18:00:15.555585 #15128] ERROR -- Kitchen: ---Nested Exception---
+E, [2021-11-06T18:00:15.555590 #15128] ERROR -- Kitchen: Class: NameError
+E, [2021-11-06T18:00:15.555595 #15128] ERROR -- Kitchen: Message: uninitialized constant Dokken::Helpers::Excon
+E, [2021-11-06T18:00:15.555600 #15128] ERROR -- Kitchen: ----------------------
+E, [2021-11-06T18:00:15.555605 #15128] ERROR -- Kitchen: ------Backtrace-------
+E, [2021-11-06T18:00:15.555610 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/plugin.rb:45:in `rescue in load'
+E, [2021-11-06T18:00:15.555615 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/plugin.rb:33:in `load'
+E, [2021-11-06T18:00:15.555620 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/provisioner.rb:37:in `for_plugin'
+E, [2021-11-06T18:00:15.555626 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:303:in `new_provisioner'
+E, [2021-11-06T18:00:15.555631 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:253:in `new_instance'
+E, [2021-11-06T18:00:15.555636 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:143:in `block in build_instances'
+E, [2021-11-06T18:00:15.555642 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `map'
+E, [2021-11-06T18:00:15.555647 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `with_index'
+E, [2021-11-06T18:00:15.555652 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:142:in `build_instances'
+E, [2021-11-06T18:00:15.555663 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/config.rb:116:in `instances'
+E, [2021-11-06T18:00:15.555669 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2021-11-06T18:00:15.555674 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2021-11-06T18:00:15.555679 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/command/list.rb:29:in `call'
+E, [2021-11-06T18:00:15.555684 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2021-11-06T18:00:15.555689 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/cli.rb:120:in `list'
+E, [2021-11-06T18:00:15.555695 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2021-11-06T18:00:15.555700 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2021-11-06T18:00:15.555707 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2021-11-06T18:00:15.555712 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2021-11-06T18:00:15.555717 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/bin/kitchen:11:in `block in <top (required)>'
+E, [2021-11-06T18:00:15.555723 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/lib/kitchen/errors.rb:170:in `with_friendly_errors'
+E, [2021-11-06T18:00:15.555728 #15128] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.8.0/bin/kitchen:11:in `<top (required)>'
+E, [2021-11-06T18:00:15.555738 #15128] ERROR -- Kitchen: /usr/bin/kitchen:342:in `load'
+E, [2021-11-06T18:00:15.555747 #15128] ERROR -- Kitchen: /usr/bin/kitchen:342:in `<main>'
+E, [2021-11-06T18:00:15.555802 #15128] ERROR -- Kitchen: ----End Backtrace-----
