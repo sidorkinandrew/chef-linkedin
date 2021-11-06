@@ -14,3 +14,7 @@ kitchen converge
 kitchen verify
 kitchen destroy
 
+
+knife node show web1 -a memory.total
+knife node show web1 -a cloud.public_ipv4
+
